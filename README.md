@@ -105,8 +105,8 @@ A nota da atividade é calculada de acordo com os critérios da tabela a seguir:
 | --- | --- |
 | Execução do programa | até 1,0 ponto |
 | Questionário | até 9,0 ponto |
-
-
+> Tabela 1 - Critérios de avaliação 
+---
 
 A tabela a seguir contém critérios de avaliação que podem reduzir a nota final da atividade:
 
@@ -117,5 +117,6 @@ A tabela a seguir contém critérios de avaliação que podem reduzir a nota fin
 | O programa exige algum arquivo adicional que não está presente | -0,5 pontos  |
 | Há erros de compilação e/ou o programa trava durante a execução | -0,5 pontos |
 | Não há identificação do grupo no código-fonte. Arquivos enviados em formatos incorretos. Arquivos e/ou pastas intermediárias que são criadas no processo de compilação foram enviadas junto com o código-fonte | Até -1,0 ponto |
+> Tabela 2 - Critérios de avaliação 
 
 > Sobre erros de compilação: considere apenas erros. Não há problema se o projeto tiver warnings (embora warnings podem avisar sobre possíveis travamentos em tempo de execução, como loop infinito, divisão por zero, etc.).
