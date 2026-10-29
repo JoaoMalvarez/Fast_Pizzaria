@@ -99,15 +99,16 @@ No mesmo arquivo zip, inclua os arquivos de teste que o grupo criou para testar 
 
 ## 7 Avaliação 
 
-A nota da atividade é calculada de acordo com os critérios da tabela a seguir.
+A nota da atividade é calculada de acordo com os critérios da tabela a seguir:
 
 | Item Avaliado | Pontuação Máxima |
 | --- | --- |
 | Execução do programa | até 1,0 ponto |
 | Questionário | até 9,0 ponto |
 
-A tabela a seguir contém critérios de avaliação que podem reduzir a nota final da
-atividade.
+
+
+A tabela a seguir contém critérios de avaliação que podem reduzir a nota final da atividade:
 
 | Item indesejável | Redução de Nota |
 | --- | --- |
