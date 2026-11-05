@@ -1,6 +1,6 @@
 # Fast_Pizzaria
 
-## 1 Descrição
+## 1. Descrição
 
 O senhor Pedro e a dona Maria abriram a Fast Pizzaria. O horário de funcionamento é das 8:00 ás 23:59, de terça a domingo. As entregas são feitas por um motoboy, que só pode atender no bairro e nas regiões mais próximas. 
 
@@ -32,7 +32,9 @@ Agora, o senhor Pedro precisa implementar esse algoritmo. Porém, ele não tem a
 
 Observe que o algoritmo não encontra a rota mais rápida (vetor R[]), será necessário modificá-lo, de forma que além do tempos para ir da esquina 1 até as outras esquinas do mapa, o algoritmo agora calcula também a rota mais rápida (vetor R[]).
 
-## 2 Entrada do programa
+---
+
+## 2. Entrada do programa
 
 No seu programa as informações referentes ao bairro e regiões são informadas por um arquivo de entrada, que contém a informação do local de entrega e as informações sobre as vias que não estão interditadas.
 
@@ -57,7 +59,9 @@ A primeira linha do arquivo de entrada consiste em um único inteiro que represe
 
 Por exemplo, se a tripla 4 6 3 estiver em uma linha do arquivo, então existe uma rua no sentido da esquina 4 para esquina 6, e para ir da esquina 4 para 6 gasta-se 3 minutos. Como as ruas no mapa são de mão única, assim só podemos ir da esquina 4 para esquina 6, no sentido contrário não é possível. Na última linha do arquivo temos um único 0, indicando que a sequência de ruas foi finalizada.
 
-## 3 Saída do programa
+---
+
+## 3. Saída do programa
 
 A saída do programa deve listar (na tela do computador) a rota mais rápida da esquina #1 até a esquina onde ocorre a entrega (no exemplo a esquina #3) e informar também qual é o tempo total da rota.
 
@@ -68,7 +72,9 @@ rota até a esquina #3: 1 4 5 6 2 3
 tempo calculado para rota = 7 min.
 </pre>
 
-## 4 Compilação
+---
+
+## 4. Compilação
 
 O código-fonte será compilado com o compilador gcc da seguinte forma:
 ```gcc -o main.exe *.c *.h```
@@ -78,7 +84,9 @@ O código compilado será executado na plataforma Windows da seguinte forma:
 
 > Não é necessário o uso de headers (.h) da linguagem C.
 
-## 5 Observações
+---
+
+## 5. Observações
 
 O programa entregue será avaliado de acordo com os seguintes itens:
 - Grupo: A atividade deve ser realizada em grupo de 2 a 4 pessoas.
@@ -88,7 +96,9 @@ O programa entregue será avaliado de acordo com os seguintes itens:
 - Caso ChatGPT e similares seja usado, incluir como comentário no arquivo '.c' que contém a main() o(s) link(s) de compartilhamento das interações com o serviço.
 - Todos os fontes devem necessariamente conter os nomes dos integrantes do grupo.
 
-## 6 Entrega
+---
+
+## 6. Entrega
 
 Compacte o código-fonte (somente arquivos *.c e *.h) no formato zip.
 
@@ -97,7 +107,9 @@ No mesmo arquivo zip, inclua os arquivos de teste que o grupo criou para testar 
 > Atenção: O arquivo zip não deve conter arquivos intermediários e/ou pastas geradas pelo compilador/IDE (ex. arquivos *.exe, replit.nix, etc.).
 > Dica do João: use um .gitignore para remover os arquivos intermediários (qualquer dúvida chame o mesmo)
 
-## 7 Avaliação 
+---
+
+## 7. Avaliação 
 
 A nota da atividade é calculada de acordo com os critérios da tabela a seguir:
 
