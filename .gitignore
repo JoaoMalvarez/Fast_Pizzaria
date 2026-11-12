@@ -1,0 +1,8 @@
+*.exe
+*.o
+*.out
+.vscode/
+.idea/
+replit.nix
+.replit
+.cache/

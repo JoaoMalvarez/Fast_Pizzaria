@@ -132,3 +132,12 @@ A tabela a seguir contém critérios de avaliação que podem reduzir a nota fin
 > Tabela 2 - Critérios de avaliação 
 
 > Sobre erros de compilação: considere apenas erros. Não há problema se o projeto tiver warnings (embora warnings podem avisar sobre possíveis travamentos em tempo de execução, como loop infinito, divisão por zero, etc.).
+
+## Para Rodar
+
+Para o projeto conseguir rodar use:
+
+```
+gcc -o main.exe *.c *.h
+main.exe
+```
