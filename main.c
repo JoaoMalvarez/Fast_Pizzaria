@@ -1,10 +1,8 @@
-/* Nome completo e RA de todos os integrantes */
-
-/* REFERÊNCIAS CONSULTADAS:
-   - (livros, artigos, sites, vídeos...)
-
-   LINKS DE COMPARTILHAMENTO DE IA (ChatGPT, Claude etc.):
-   - (colar os links aqui)
+/* Nome completo e RA de todos os integrantes:
+   - Carolina Yamada                | RA: 10741647
+   - Enzo                           | RA: 
+   - João Pedro Mazzante Alvarez    | RA: 10723837
+   - Jonatas Simonton Gouveira Lage | RA: 10736320
 */
 
 #include <stdio.h>

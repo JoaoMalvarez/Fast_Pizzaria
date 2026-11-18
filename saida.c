@@ -1,4 +1,10 @@
-/* Nome completo e RA de todos os integrantes */
+/* Nome completo e RA de todos os integrantes:
+   - Carolina Yamada                | RA: 10741647
+   - Enzo                           | RA: 
+   - João Pedro Mazzante Alvarez    | RA: 10723837
+   - Jonatas Simonton Gouveira Lage | RA: 10736320
+*/
+
 #include <stdio.h>
 #include "pizza.h"
 
@@ -10,4 +16,31 @@ void imprimir_rota(int destino, int T[], int R[]) {
        3. imprimir o vetor invertido (da esquina 1 até o destino) no formato:
             rota até a esquina #3: 1 4 5 6 2 3
             tempo calculado para rota = 7 min. */
+      int rota[MAX];
+      int tam = 0;
+      int atual, i;
+
+      // 1. Se não dá para chegar: 
+      if(T[destino] == INFINITO) {
+         printf("Não há rotas para a esquina %d.", destino);
+         return;
+      }
+
+      // 2. Montar o vetor:
+      atual = destino;
+      while (atual != -1) {
+         rota[tam] = atual;
+         tam++;
+         atual = R[atual];
+      }
+
+      // 3. Imprime a lista:
+      printf("Rota até a esquina %d:", destino);
+      for(int i = tam; i >= 0; i--) {
+         printf(" %d", rota[i]);
+      }
+      printf("/n");
+
+      // 4. Imprime o tempo:
+      printf("Tempo de chegada: %d min", T[destino]);
 }
