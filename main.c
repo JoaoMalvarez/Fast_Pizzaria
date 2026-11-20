@@ -1,6 +1,6 @@
 /* Nome completo e RA de todos os integrantes:
    - Carolina Yamada                | RA: 10741647
-   - Enzo                           | RA: 
+   - Enzo Vasconcellos              | RA: 10736817
    - João Pedro Mazzante Alvarez    | RA: 10723837
    - Jonatas Simonton Gouveira Lage | RA: 10736320
 */
