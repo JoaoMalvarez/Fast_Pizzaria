@@ -2,7 +2,7 @@
    - Carolina Yamada                | RA: 10741647
    - Enzo Vasconcellos              | RA: 10736817
    - João Pedro Mazzante Alvarez    | RA: 10723837
-   - Jonatas Simonton Gouveira Lage | RA: 10736320
+   - Jonatas Simonton Gouveia Lage | RA: 10736320
 */
 
 #include <stdio.h>

@@ -2,7 +2,7 @@
    - Carolina Yamada                | RA: 10741647
    - Enzo Vasconcellos              | RA: 10736817
    - João Pedro Mazzante Alvarez    | RA: 10723837
-   - Jonatas Simonton Gouveira Lage | RA: 10736320
+   - Jonatas Simonton Gouveia Lage | RA: 10736320
 */
 
 #include <stdio.h>
@@ -22,7 +22,7 @@ void imprimir_rota(int destino, int T[], int R[]) {
 
       // 1. Se não dá para chegar: 
       if(T[destino] == INFINITO) {
-         printf("Não há rotas para a esquina %d.\n", destino);
+         printf("Não há rotas para a esquina #%d.\n", destino);
          return;
       }
 
@@ -35,14 +35,14 @@ void imprimir_rota(int destino, int T[], int R[]) {
       }
 
       // 3. Imprime a lista:
-      printf("Rota até a esquina #%d:", destino);
-      for(int i = tam; i >= 0; i--) {
+      printf("rota até a esquina #%d:", destino);
+      for(i = tam - 1; i >= 0; i--) {
          printf(" %d", rota[i]);
       }
-      printf("\nn");
+      printf("\n");
 
       // 4. Imprime o tempo:
-      printf("Tempo de chegada: %d min\n", T[destino]);
+      printf("tempo de chegada: %d min\n", T[destino]);
 }
 
 
