@@ -8,13 +8,18 @@
 #include <stdio.h>
 #include "pizza.h"
 
-int main(void) {
+int main(int argc, char *argv[]) {
     int destino, n;
     int mapa[MAX][MAX];
     int T[MAX], R[MAX];
+    const char *arquivo = "pizzaria.txt";
 
-    if (!ler_mapa("pizzaria.txt", &destino, &n, mapa)) {
-        printf("Erro ao ler o arquivo pizzaria.txt\n");
+    if (argc > 1) {
+        arquivo = argv[1];
+    }
+
+    if (!ler_mapa(arquivo, &destino, &n, mapa)) {
+        printf("Erro ao ler o arquivo %s\n", arquivo);
         return 1;
     }
 
