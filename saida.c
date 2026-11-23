@@ -35,7 +35,7 @@ void imprimir_rota(int destino, int T[], int R[]) {
       }
 
       // 3. Imprime a lista:
-      printf("Rota até a esquina %d:", destino);
+      printf("Rota até a esquina #%d:", destino);
       for(int i = tam; i >= 0; i--) {
          printf(" %d", rota[i]);
       }
@@ -44,4 +44,5 @@ void imprimir_rota(int destino, int T[], int R[]) {
       // 4. Imprime o tempo:
       printf("Tempo de chegada: %d min\n", T[destino]);
 }
+
 
