@@ -42,7 +42,7 @@ void imprimir_rota(int destino, int T[], int R[]) {
       printf("\n");
 
       // 4. Imprime o tempo:
-      printf("tempo de chegada: %d min\n", T[destino]);
+      printf("tempo calculado para rota: %d min\n", T[destino]);
 }
 
 
