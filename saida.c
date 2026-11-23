@@ -22,7 +22,7 @@ void imprimir_rota(int destino, int T[], int R[]) {
 
       // 1. Se não dá para chegar: 
       if(T[destino] == INFINITO) {
-         printf("Não há rotas para a esquina %d.", destino);
+         printf("Não há rotas para a esquina %d.\n", destino);
          return;
       }
 
@@ -39,8 +39,9 @@ void imprimir_rota(int destino, int T[], int R[]) {
       for(int i = tam; i >= 0; i--) {
          printf(" %d", rota[i]);
       }
-      printf("/n");
+      printf("\nn");
 
       // 4. Imprime o tempo:
-      printf("Tempo de chegada: %d min", T[destino]);
+      printf("Tempo de chegada: %d min\n", T[destino]);
 }
+
