@@ -91,7 +91,7 @@ Sem argumento, continua lendo `pizzaria.txt`, então o comportamento exigido pel
 Para rodar um teste:
 
 ```
-main.exe testes\teste_06_empate.txt
+.\main.exe testes\teste_06_empate.txt
 ```
 
 ## 5. Rodar todos os testes de uma vez
@@ -116,7 +116,7 @@ for %%f in (testes\*.txt) do (
 E execute:
 
 ```
-rodar_testes.bat
+.\rodar_testes.bat
 ```
 
 O script compila, e para cada `.txt` da pasta `testes` mostra o nome do arquivo e a saída do programa. Depois é só comparar com a tabela abaixo.
@@ -207,3 +207,4 @@ printf("Não há rotas para a esquina #%d.\n", destino);
 - [ ] Sem `main.exe`, `.gitignore`, `.git`, `README.md`, `rodar_testes.bat` nem pastas de IDE dentro do zip
 
 - [ ] Todo mundo do grupo entende o código inteiro (9 dos 10 pontos vêm do questionário)
+
