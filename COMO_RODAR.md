@@ -49,7 +49,7 @@ gcc -o main.exe *.c *.h
 ## 3. Rodar o exemplo padrão
 
 ```
-main.exe
+.\main.exe
 ```
 
 O programa lê o arquivo `pizzaria.txt`. Para o exemplo do enunciado, a saída esperada é:
@@ -205,4 +205,5 @@ printf("Não há rotas para a esquina #%d.\n", destino);
 - [ ] Todos os testes de `testes/` rodam sem travar
 - [ ] Zip com **somente** `*.c`, `*.h`, `pizzaria.txt` e a pasta `testes/`
 - [ ] Sem `main.exe`, `.gitignore`, `.git`, `README.md`, `rodar_testes.bat` nem pastas de IDE dentro do zip
+
 - [ ] Todo mundo do grupo entende o código inteiro (9 dos 10 pontos vêm do questionário)
